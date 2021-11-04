@@ -1,0 +1,174 @@
+{
+  "fileId": "235758f1fc1b617f84acf159267fd56142a69307",
+  "fileName": "api.spec.js",
+  "tests": [
+    {
+      "testId": "235758f1fc1b617f84acf159267fd56142a69307-eda97dd862bcafcbb837960dab4a114bed95731a",
+      "title": "should be able to list all teas",
+      "projectName": "",
+      "location": {
+        "file": "api.spec.js",
+        "line": 11,
+        "column": 1
+      },
+      "duration": 1310,
+      "outcome": "expected",
+      "path": [
+        "api.spec.js:11"
+      ],
+      "results": [
+        {
+          "duration": 1310,
+          "startTime": "2021-11-04T16:52:17.775Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-04T16:52:17.775Z",
+              "duration": 12,
+              "steps": []
+            },
+            {
+              "title": "expect.toBeTruthy",
+              "startTime": "2021-11-04T16:52:19.082Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m     })\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m     expect(response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[90m// console.log('check', (await response.body()).toString())\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "api.spec.js",
+                "line": 17,
+                "column": 27
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-04T16:52:19.082Z",
+              "duration": 3,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "235758f1fc1b617f84acf159267fd56142a69307-8b7563fad6b101225ebf3835e82b6249c3ea95b6",
+      "title": "should be able to get one tea by name",
+      "projectName": "",
+      "location": {
+        "file": "api.spec.js",
+        "line": 20,
+        "column": 1
+      },
+      "duration": 710,
+      "outcome": "expected",
+      "path": [
+        "api.spec.js:20"
+      ],
+      "results": [
+        {
+          "duration": 710,
+          "startTime": "2021-11-04T16:52:19.085Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-04T16:52:19.086Z",
+              "duration": 2,
+              "steps": []
+            },
+            {
+              "title": "expect.toBeTruthy",
+              "startTime": "2021-11-04T16:52:19.791Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 25 |\u001b[39m     })\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m     expect(response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m     expect((\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mbody())\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mincludes(teaName))\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "api.spec.js",
+                "line": 26,
+                "column": 27
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-04T16:52:19.794Z",
+              "duration": 1,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    },
+    {
+      "testId": "235758f1fc1b617f84acf159267fd56142a69307-2525ab731156666bf4eb7829a5f2cb5b5efbf334",
+      "title": "should be able to verify that added tea is now added to the list of all teas",
+      "projectName": "",
+      "location": {
+        "file": "api.spec.js",
+        "line": 39,
+        "column": 1
+      },
+      "duration": 402,
+      "outcome": "expected",
+      "path": [
+        "api.spec.js:39"
+      ],
+      "results": [
+        {
+          "duration": 402,
+          "startTime": "2021-11-04T16:52:19.795Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-04T16:52:19.796Z",
+              "duration": 2,
+              "steps": []
+            },
+            {
+              "title": "expect.toBeTruthy",
+              "startTime": "2021-11-04T16:52:20.194Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m     })\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     expect(response\u001b[33m.\u001b[39mok())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[90m// console.log('response', response.body().data.teas)\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "api.spec.js",
+                "line": 45,
+                "column": 27
+              }
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2021-11-04T16:52:20.195Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[90m// console.log('response', response.body().data.teas)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                              ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m })\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "api.spec.js",
+                "line": 47,
+                "column": 31
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-04T16:52:20.195Z",
+              "duration": 2,
+              "steps": []
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

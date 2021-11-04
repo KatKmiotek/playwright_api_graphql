@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "fileId": "235758f1fc1b617f84acf159267fd56142a69307",
+      "fileName": "api.spec.js",
+      "tests": [
+        {
+          "testId": "235758f1fc1b617f84acf159267fd56142a69307-eda97dd862bcafcbb837960dab4a114bed95731a",
+          "title": "should be able to list all teas",
+          "projectName": "",
+          "location": {
+            "file": "api.spec.js",
+            "line": 11,
+            "column": 1
+          },
+          "duration": 1310,
+          "outcome": "expected",
+          "path": [
+            "api.spec.js:11"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "235758f1fc1b617f84acf159267fd56142a69307-8b7563fad6b101225ebf3835e82b6249c3ea95b6",
+          "title": "should be able to get one tea by name",
+          "projectName": "",
+          "location": {
+            "file": "api.spec.js",
+            "line": 20,
+            "column": 1
+          },
+          "duration": 710,
+          "outcome": "expected",
+          "path": [
+            "api.spec.js:20"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "235758f1fc1b617f84acf159267fd56142a69307-2525ab731156666bf4eb7829a5f2cb5b5efbf334",
+          "title": "should be able to verify that added tea is now added to the list of all teas",
+          "projectName": "",
+          "location": {
+            "file": "api.spec.js",
+            "line": 39,
+            "column": 1
+          },
+          "duration": 402,
+          "outcome": "expected",
+          "path": [
+            "api.spec.js:39"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 3,
+        "expected": 3,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 2422
+      }
+    }
+  ],
+  "projectNames": [
+    ""
+  ],
+  "stats": {
+    "total": 3,
+    "expected": 3,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "duration": 2422
+  }
+}
