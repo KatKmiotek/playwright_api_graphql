@@ -13,6 +13,8 @@ const addTea = (newTea, teaPrice) => `mutation { addTea(teaInput: { name: "${new
 producerId: "60b8bc31956abb0009efb4d0" }){ name price} }`
 const deleteTea = (teaID) => `mutation { deleteTea(id: "${teaID}") }`
 
+
+
 test('should be able to list all teas', async ({ request }) => {
     const response = await request.post('/', {
         data: {
@@ -22,6 +24,8 @@ test('should be able to list all teas', async ({ request }) => {
     expect(response.ok()).toBeTruthy()
     // console.log('check', (await response.body()).toString())
 })
+
+
 test('should be able to get one tea by name', async ({ request }) => {
     const response = await request.post('/', {
         data: {
@@ -35,6 +39,7 @@ test('should be able to get one tea by name', async ({ request }) => {
     expect(JSON.stringify(jsonResponse)).toContain(teaName)
 })
 
+
 test('should be able to add a new tea', async ({ request }) => {
     const response = await request.post('/', {
         data: {
@@ -45,6 +50,8 @@ test('should be able to add a new tea', async ({ request }) => {
     expect(response.status()).toBe(200)
     console.log('added a new tea: ', (await response.body()).toString());
 })
+
+
 test('should be able to verify that added tea is now added to the list of all teas', async ({ request }) => {
     const response = await request.post('/', {
         data: {
@@ -61,6 +68,7 @@ test('should be able to verify that added tea is now added to the list of all te
     expect(response.status()).toBe(200)
     expect(JSON.stringify(jsonResponse)).toContain(newTea)
 })
+
 
 test('should be able to delete a newly added tea', async ({ request }) => {
 
